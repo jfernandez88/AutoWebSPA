@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="60" result="Failed" total="60" passed="58" failed="2" inconclusive="0" skipped="0" asserts="171" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-12-18 19:27:47Z" end-time="2019-12-18 19:47:09Z" duration="1162.008920">
+  <command-line><![CDATA["C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe"  --workers="4" AutoWebSpa.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1076" name="AutoWebSpa.dll" fullname="C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\bin\Debug\AutoWebSpa.dll" runstate="Runnable" testcasecount="60" result="Failed" site="Child" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:47:09Z" duration="1161.267947" total="60" passed="58" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="171">
+    <environment framework-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17763.0" platform="Win32NT" cwd="C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\bin\Debug" machine-name="NOTEBOOK19" user="jfernandez" user-domain="SISESCO" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\bin\Debug" />
+      <setting name="NumberOfTestWorkers" value="4" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+    </settings>
+    <properties>
+      <property name="_PID" value="12584" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1077" name="AutoWebSpa" fullname="AutoWebSpa" runstate="Runnable" testcasecount="60" result="Failed" site="Child" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:47:09Z" duration="1161.247328" total="60" passed="58" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="171">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1094" name="Core" fullname="AutoWebSpa.Core" runstate="Runnable" testcasecount="0" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:27:48Z" duration="0.045189" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="0-1075" name="SeleniumExtentReport" fullname="AutoWebSpa.Core.SeleniumExtentReport" classname="AutoWebSpa.Core.SeleniumExtentReport" runstate="Runnable" testcasecount="0" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:27:48Z" duration="0.002066" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" />
+      </test-suite>
+      <test-suite type="TestSuite" id="0-1078" name="TestSuites" fullname="AutoWebSpa.TestSuites" runstate="Runnable" testcasecount="60" result="Failed" site="Child" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:47:09Z" duration="1161.240518" total="60" passed="58" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="171">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="0-1090" name="AgrupacionesDeEspecies" fullname="AutoWebSpa.TestSuites.AgrupacionesDeEspecies" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:31:49Z" duration="240.781900" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+          <test-suite type="TestFixture" id="0-1055" name="AgrupacionesDeEspecies" fullname="AutoWebSpa.TestSuites.AgrupacionesDeEspecies.AgrupacionesDeEspecies" classname="AutoWebSpa.TestSuites.AgrupacionesDeEspecies.AgrupacionesDeEspecies" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:31:49Z" duration="240.740084" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <test-case id="0-1056" name="AgrupacionesDeEspecies_Alta" fullname="AutoWebSpa.TestSuites.AgrupacionesDeEspecies.AgrupacionesDeEspecies.AgrupacionesDeEspecies_Alta" methodname="AgrupacionesDeEspecies_Alta" classname="AutoWebSpa.TestSuites.AgrupacionesDeEspecies.AgrupacionesDeEspecies" runstate="Runnable" seed="2105015185" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:28:39Z" duration="50.692728" asserts="2" />
+            <test-case id="0-1059" name="AgrupacionesDeEspecies_Auditar" fullname="AutoWebSpa.TestSuites.AgrupacionesDeEspecies.AgrupacionesDeEspecies.AgrupacionesDeEspecies_Auditar" methodname="AgrupacionesDeEspecies_Auditar" classname="AutoWebSpa.TestSuites.AgrupacionesDeEspecies.AgrupacionesDeEspecies" runstate="Runnable" seed="2057827866" result="Passed" start-time="2019-12-18 19:28:39Z" end-time="2019-12-18 19:29:47Z" duration="68.242433" asserts="2" />
+            <test-case id="0-1057" name="AgrupacionesDeEspecies_Baja" fullname="AutoWebSpa.TestSuites.AgrupacionesDeEspecies.AgrupacionesDeEspecies.AgrupacionesDeEspecies_Baja" methodname="AgrupacionesDeEspecies_Baja" classname="AutoWebSpa.TestSuites.AgrupacionesDeEspecies.AgrupacionesDeEspecies" runstate="Runnable" seed="1165347942" result="Passed" start-time="2019-12-18 19:29:47Z" end-time="2019-12-18 19:30:35Z" duration="47.327941" asserts="2" />
+            <test-case id="0-1058" name="AgrupacionesDeEspecies_Modificar" fullname="AutoWebSpa.TestSuites.AgrupacionesDeEspecies.AgrupacionesDeEspecies.AgrupacionesDeEspecies_Modificar" methodname="AgrupacionesDeEspecies_Modificar" classname="AutoWebSpa.TestSuites.AgrupacionesDeEspecies.AgrupacionesDeEspecies" runstate="Runnable" seed="745112287" result="Passed" start-time="2019-12-18 19:30:35Z" end-time="2019-12-18 19:31:41Z" duration="66.037540" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1093" name="CentroFisico" fullname="AutoWebSpa.TestSuites.CentroFisico" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:31:49Z" duration="240.808907" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+          <test-suite type="TestFixture" id="0-1070" name="CentroFisico" fullname="AutoWebSpa.TestSuites.CentroFisico.CentroFisico" classname="AutoWebSpa.TestSuites.CentroFisico.CentroFisico" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:31:49Z" duration="240.769167" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <test-case id="0-1071" name="CentroFisico_Alta" fullname="AutoWebSpa.TestSuites.CentroFisico.CentroFisico.CentroFisico_Alta" methodname="CentroFisico_Alta" classname="AutoWebSpa.TestSuites.CentroFisico.CentroFisico" runstate="Runnable" seed="193200402" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:28:41Z" duration="52.415443" asserts="2" />
+            <test-case id="0-1074" name="CentroFisico_Auditar" fullname="AutoWebSpa.TestSuites.CentroFisico.CentroFisico.CentroFisico_Auditar" methodname="CentroFisico_Auditar" classname="AutoWebSpa.TestSuites.CentroFisico.CentroFisico" runstate="Runnable" seed="1890438101" result="Passed" start-time="2019-12-18 19:28:41Z" end-time="2019-12-18 19:29:48Z" duration="67.009324" asserts="2" />
+            <test-case id="0-1072" name="CentroFisico_Baja" fullname="AutoWebSpa.TestSuites.CentroFisico.CentroFisico.CentroFisico_Baja" methodname="CentroFisico_Baja" classname="AutoWebSpa.TestSuites.CentroFisico.CentroFisico" runstate="Runnable" seed="1256346160" result="Passed" start-time="2019-12-18 19:29:48Z" end-time="2019-12-18 19:30:35Z" duration="47.718745" asserts="2" />
+            <test-case id="0-1073" name="CentroFisico_Modificar" fullname="AutoWebSpa.TestSuites.CentroFisico.CentroFisico.CentroFisico_Modificar" methodname="CentroFisico_Modificar" classname="AutoWebSpa.TestSuites.CentroFisico.CentroFisico" runstate="Runnable" seed="40078697" result="Passed" start-time="2019-12-18 19:30:35Z" end-time="2019-12-18 19:31:41Z" duration="65.523779" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1080" name="Actividades" fullname="AutoWebSpa.TestSuites.Actividades" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:32:54Z" duration="306.401252" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="11">
+          <test-suite type="TestFixture" id="0-1005" name="Actividades" fullname="AutoWebSpa.TestSuites.Actividades.Actividades" classname="AutoWebSpa.TestSuites.Actividades.Actividades" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:32:54Z" duration="306.355150" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="11">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <test-case id="0-1006" name="Actividades_Alta" fullname="AutoWebSpa.TestSuites.Actividades.Actividades.Actividades_Alta" methodname="Actividades_Alta" classname="AutoWebSpa.TestSuites.Actividades.Actividades" runstate="Runnable" seed="1833841290" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:28:56Z" duration="67.706441" asserts="5" />
+            <test-case id="0-1009" name="Actividades_Auditar" fullname="AutoWebSpa.TestSuites.Actividades.Actividades.Actividades_Auditar" methodname="Actividades_Auditar" classname="AutoWebSpa.TestSuites.Actividades.Actividades" runstate="Runnable" seed="829584969" result="Passed" start-time="2019-12-18 19:28:56Z" end-time="2019-12-18 19:30:18Z" duration="81.707529" asserts="2" />
+            <test-case id="0-1007" name="Actividades_Baja" fullname="AutoWebSpa.TestSuites.Actividades.Actividades.Actividades_Baja" methodname="Actividades_Baja" classname="AutoWebSpa.TestSuites.Actividades.Actividades" runstate="Runnable" seed="297753865" result="Passed" start-time="2019-12-18 19:30:18Z" end-time="2019-12-18 19:31:25Z" duration="67.531459" asserts="2" />
+            <test-case id="0-1008" name="Actividades_Modificar" fullname="AutoWebSpa.TestSuites.Actividades.Actividades.Actividades_Modificar" methodname="Actividades_Modificar" classname="AutoWebSpa.TestSuites.Actividades.Actividades" runstate="Runnable" seed="326109392" result="Passed" start-time="2019-12-18 19:31:25Z" end-time="2019-12-18 19:32:54Z" duration="88.887196" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1092" name="CondicionesDeEmision" fullname="AutoWebSpa.TestSuites.CondicionesDeEmision" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:35:28Z" duration="459.952822" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+          <test-suite type="TestFixture" id="0-1065" name="CondicionesDeEmision" fullname="AutoWebSpa.TestSuites.CondicionesDeEmision.CondicionesDeEmision" classname="AutoWebSpa.TestSuites.CondicionesDeEmision.CondicionesDeEmision" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:31:49Z" end-time="2019-12-18 19:35:28Z" duration="219.169022" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <test-case id="0-1066" name="CondicionesDeEmision_Alta" fullname="AutoWebSpa.TestSuites.CondicionesDeEmision.CondicionesDeEmision.CondicionesDeEmision_Alta" methodname="CondicionesDeEmision_Alta" classname="AutoWebSpa.TestSuites.CondicionesDeEmision.CondicionesDeEmision" runstate="Runnable" seed="1756081535" result="Passed" start-time="2019-12-18 19:31:49Z" end-time="2019-12-18 19:32:33Z" duration="44.233138" asserts="2" />
+            <test-case id="0-1069" name="CondicionesDeEmision_Auditar" fullname="AutoWebSpa.TestSuites.CondicionesDeEmision.CondicionesDeEmision.CondicionesDeEmision_Auditar" methodname="CondicionesDeEmision_Auditar" classname="AutoWebSpa.TestSuites.CondicionesDeEmision.CondicionesDeEmision" runstate="Runnable" seed="92852279" result="Passed" start-time="2019-12-18 19:32:33Z" end-time="2019-12-18 19:33:50Z" duration="76.949271" asserts="2" />
+            <test-case id="0-1067" name="CondicionesDeEmision_Baja" fullname="AutoWebSpa.TestSuites.CondicionesDeEmision.CondicionesDeEmision.CondicionesDeEmision_Baja" methodname="CondicionesDeEmision_Baja" classname="AutoWebSpa.TestSuites.CondicionesDeEmision.CondicionesDeEmision" runstate="Runnable" seed="529188123" result="Passed" start-time="2019-12-18 19:33:50Z" end-time="2019-12-18 19:34:32Z" duration="42.360750" asserts="2" />
+            <test-case id="0-1068" name="CondicionesDeEmision_Modificar" fullname="AutoWebSpa.TestSuites.CondicionesDeEmision.CondicionesDeEmision.CondicionesDeEmision_Modificar" methodname="CondicionesDeEmision_Modificar" classname="AutoWebSpa.TestSuites.CondicionesDeEmision.CondicionesDeEmision" runstate="Runnable" seed="1260865979" result="Passed" start-time="2019-12-18 19:34:32Z" end-time="2019-12-18 19:35:28Z" duration="55.446966" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1082" name="EstadosCiviles" fullname="AutoWebSpa.TestSuites.EstadosCiviles" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:36:42Z" duration="534.246961" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+          <test-suite type="TestFixture" id="0-1015" name="EstadosCiviles" fullname="AutoWebSpa.TestSuites.EstadosCiviles.EstadosCiviles" classname="AutoWebSpa.TestSuites.EstadosCiviles.EstadosCiviles" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:32:54Z" end-time="2019-12-18 19:36:42Z" duration="227.853106" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <test-case id="0-1016" name="EstadosCiviles_Alta" fullname="AutoWebSpa.TestSuites.EstadosCiviles.EstadosCiviles.EstadosCiviles_Alta" methodname="EstadosCiviles_Alta" classname="AutoWebSpa.TestSuites.EstadosCiviles.EstadosCiviles" runstate="Runnable" seed="1351561304" result="Passed" start-time="2019-12-18 19:32:54Z" end-time="2019-12-18 19:33:42Z" duration="48.111318" asserts="4" />
+            <test-case id="0-1019" name="EstadosCiviles_Auditar" fullname="AutoWebSpa.TestSuites.EstadosCiviles.EstadosCiviles.EstadosCiviles_Auditar" methodname="EstadosCiviles_Auditar" classname="AutoWebSpa.TestSuites.EstadosCiviles.EstadosCiviles" runstate="Runnable" seed="1263693775" result="Passed" start-time="2019-12-18 19:33:42Z" end-time="2019-12-18 19:34:58Z" duration="75.276851" asserts="2" />
+            <test-case id="0-1017" name="EstadosCiviles_Baja" fullname="AutoWebSpa.TestSuites.EstadosCiviles.EstadosCiviles.EstadosCiviles_Baja" methodname="EstadosCiviles_Baja" classname="AutoWebSpa.TestSuites.EstadosCiviles.EstadosCiviles" runstate="Runnable" seed="1630974189" result="Passed" start-time="2019-12-18 19:34:58Z" end-time="2019-12-18 19:35:45Z" duration="47.266777" asserts="2" />
+            <test-case id="0-1018" name="EstadosCiviles_Modificar" fullname="AutoWebSpa.TestSuites.EstadosCiviles.EstadosCiviles.EstadosCiviles_Modificar" methodname="EstadosCiviles_Modificar" classname="AutoWebSpa.TestSuites.EstadosCiviles.EstadosCiviles" runstate="Runnable" seed="1836105911" result="Passed" start-time="2019-12-18 19:35:45Z" end-time="2019-12-18 19:36:42Z" duration="56.954516" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1079" name="Agentes" fullname="AutoWebSpa.TestSuites.Agentes" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:37:12Z" duration="564.074411" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="26">
+          <test-suite type="TestFixture" id="0-1000" name="Agentes" fullname="AutoWebSpa.TestSuites.Agentes.Agentes" classname="AutoWebSpa.TestSuites.Agentes.Agentes" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:37:12Z" duration="564.031226" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="26">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <test-case id="0-1001" name="Agentes_Alta" fullname="AutoWebSpa.TestSuites.Agentes.Agentes.Agentes_Alta" methodname="Agentes_Alta" classname="AutoWebSpa.TestSuites.Agentes.Agentes" runstate="Runnable" seed="369132508" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:30:00Z" duration="131.392785" asserts="20" />
+            <test-case id="0-1004" name="Agentes_Auditar" fullname="AutoWebSpa.TestSuites.Agentes.Agentes.Agentes_Auditar" methodname="Agentes_Auditar" classname="AutoWebSpa.TestSuites.Agentes.Agentes" runstate="Runnable" seed="942500782" result="Passed" start-time="2019-12-18 19:30:00Z" end-time="2019-12-18 19:32:51Z" duration="171.664050" asserts="2" />
+            <test-case id="0-1002" name="Agentes_Baja" fullname="AutoWebSpa.TestSuites.Agentes.Agentes.Agentes_Baja" methodname="Agentes_Baja" classname="AutoWebSpa.TestSuites.Agentes.Agentes" runstate="Runnable" seed="602619757" result="Passed" start-time="2019-12-18 19:32:51Z" end-time="2019-12-18 19:34:55Z" duration="123.751758" asserts="2" />
+            <test-case id="0-1003" name="Agentes_Modificar" fullname="AutoWebSpa.TestSuites.Agentes.Agentes.Agentes_Modificar" methodname="Agentes_Modificar" classname="AutoWebSpa.TestSuites.Agentes.Agentes" runstate="Runnable" seed="533683198" result="Passed" start-time="2019-12-18 19:34:55Z" end-time="2019-12-18 19:37:12Z" duration="136.537868" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1088" name="Emisor" fullname="AutoWebSpa.TestSuites.Emisor" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:37:13Z" duration="564.837438" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="12">
+          <test-suite type="TestFixture" id="0-1045" name="Emisor" fullname="AutoWebSpa.TestSuites.Emisor.Emisor" classname="AutoWebSpa.TestSuites.Emisor.Emisor" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:31:49Z" end-time="2019-12-18 19:37:13Z" duration="324.026634" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="12">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <test-case id="0-1046" name="Emisor_Alta" fullname="AutoWebSpa.TestSuites.Emisor.Emisor.Emisor_Alta" methodname="Emisor_Alta" classname="AutoWebSpa.TestSuites.Emisor.Emisor" runstate="Runnable" seed="1295051745" result="Passed" start-time="2019-12-18 19:31:49Z" end-time="2019-12-18 19:33:04Z" duration="74.930788" asserts="6" />
+            <test-case id="0-1049" name="Emisor_Auditar" fullname="AutoWebSpa.TestSuites.Emisor.Emisor.Emisor_Auditar" methodname="Emisor_Auditar" classname="AutoWebSpa.TestSuites.Emisor.Emisor" runstate="Runnable" seed="1728327813" result="Passed" start-time="2019-12-18 19:33:04Z" end-time="2019-12-18 19:34:35Z" duration="91.115740" asserts="2" />
+            <test-case id="0-1047" name="Emisor_Baja" fullname="AutoWebSpa.TestSuites.Emisor.Emisor.Emisor_Baja" methodname="Emisor_Baja" classname="AutoWebSpa.TestSuites.Emisor.Emisor" runstate="Runnable" seed="1716353844" result="Passed" start-time="2019-12-18 19:34:35Z" end-time="2019-12-18 19:35:44Z" duration="68.826692" asserts="2" />
+            <test-case id="0-1048" name="Emisor_Modificar" fullname="AutoWebSpa.TestSuites.Emisor.Emisor.Emisor_Modificar" methodname="Emisor_Modificar" classname="AutoWebSpa.TestSuites.Emisor.Emisor" runstate="Runnable" seed="1727130115" result="Passed" start-time="2019-12-18 19:35:44Z" end-time="2019-12-18 19:37:12Z" duration="88.804398" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1091" name="HorizonteDeInversion" fullname="AutoWebSpa.TestSuites.HorizonteDeInversion" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:39:22Z" duration="694.440690" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+          <test-suite type="TestFixture" id="0-1060" name="HorizonteDeInversion" fullname="AutoWebSpa.TestSuites.HorizonteDeInversion.HorizonteDeInversion" classname="AutoWebSpa.TestSuites.HorizonteDeInversion.HorizonteDeInversion" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:35:28Z" end-time="2019-12-18 19:39:22Z" duration="234.488037" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <test-case id="0-1061" name="HorizonteDeInversion_Alta" fullname="AutoWebSpa.TestSuites.HorizonteDeInversion.HorizonteDeInversion.HorizonteDeInversion_Alta" methodname="HorizonteDeInversion_Alta" classname="AutoWebSpa.TestSuites.HorizonteDeInversion.HorizonteDeInversion" runstate="Runnable" seed="553814585" result="Passed" start-time="2019-12-18 19:35:28Z" end-time="2019-12-18 19:36:07Z" duration="39.105466" asserts="2" />
+            <test-case id="0-1064" name="HorizonteDeInversion_Auditar" fullname="AutoWebSpa.TestSuites.HorizonteDeInversion.HorizonteDeInversion.HorizonteDeInversion_Auditar" methodname="HorizonteDeInversion_Auditar" classname="AutoWebSpa.TestSuites.HorizonteDeInversion.HorizonteDeInversion" runstate="Runnable" seed="414269732" result="Passed" start-time="2019-12-18 19:36:07Z" end-time="2019-12-18 19:37:24Z" duration="76.908437" asserts="2" />
+            <test-case id="0-1062" name="HorizonteDeInversion_Baja" fullname="AutoWebSpa.TestSuites.HorizonteDeInversion.HorizonteDeInversion.HorizonteDeInversion_Baja" methodname="HorizonteDeInversion_Baja" classname="AutoWebSpa.TestSuites.HorizonteDeInversion.HorizonteDeInversion" runstate="Runnable" seed="260780924" result="Passed" start-time="2019-12-18 19:37:24Z" end-time="2019-12-18 19:38:20Z" duration="55.857832" asserts="2" />
+            <test-case id="0-1063" name="HorizonteDeInversion_Modificar" fullname="AutoWebSpa.TestSuites.HorizonteDeInversion.HorizonteDeInversion.HorizonteDeInversion_Modificar" methodname="HorizonteDeInversion_Modificar" classname="AutoWebSpa.TestSuites.HorizonteDeInversion.HorizonteDeInversion" runstate="Runnable" seed="537381144" result="Passed" start-time="2019-12-18 19:38:20Z" end-time="2019-12-18 19:39:22Z" duration="62.139984" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1086" name="Modalidades" fullname="AutoWebSpa.TestSuites.Modalidades" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:40:38Z" duration="770.185734" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+          <test-suite type="TestFixture" id="0-1035" name="Modalidades" fullname="AutoWebSpa.TestSuites.Modalidades.Modalidades" classname="AutoWebSpa.TestSuites.Modalidades.Modalidades" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:36:42Z" end-time="2019-12-18 19:40:38Z" duration="235.937608" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <test-case id="0-1036" name="Modalidades_Alta" fullname="AutoWebSpa.TestSuites.Modalidades.Modalidades.Modalidades_Alta" methodname="Modalidades_Alta" classname="AutoWebSpa.TestSuites.Modalidades.Modalidades" runstate="Runnable" seed="1946917677" result="Passed" start-time="2019-12-18 19:36:42Z" end-time="2019-12-18 19:37:35Z" duration="52.729712" asserts="2" />
+            <test-case id="0-1039" name="Modalidades_Auditar" fullname="AutoWebSpa.TestSuites.Modalidades.Modalidades.Modalidades_Auditar" methodname="Modalidades_Auditar" classname="AutoWebSpa.TestSuites.Modalidades.Modalidades" runstate="Runnable" seed="1816673100" result="Passed" start-time="2019-12-18 19:37:35Z" end-time="2019-12-18 19:38:57Z" duration="81.813652" asserts="2" />
+            <test-case id="0-1037" name="Modalidades_Baja" fullname="AutoWebSpa.TestSuites.Modalidades.Modalidades.Modalidades_Baja" methodname="Modalidades_Baja" classname="AutoWebSpa.TestSuites.Modalidades.Modalidades" runstate="Runnable" seed="1258049186" result="Passed" start-time="2019-12-18 19:38:57Z" end-time="2019-12-18 19:39:42Z" duration="45.671010" asserts="2" />
+            <test-case id="0-1038" name="Modalidades_Modificar" fullname="AutoWebSpa.TestSuites.Modalidades.Modalidades.Modalidades_Modificar" methodname="Modalidades_Modificar" classname="AutoWebSpa.TestSuites.Modalidades.Modalidades" runstate="Runnable" seed="594143330" result="Passed" start-time="2019-12-18 19:39:42Z" end-time="2019-12-18 19:40:37Z" duration="55.092399" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1081" name="Monedas" fullname="AutoWebSpa.TestSuites.Monedas" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:43:16Z" duration="928.235417" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="18">
+          <test-suite type="TestFixture" id="0-1010" name="Monedas" fullname="AutoWebSpa.TestSuites.Monedas.Monedas" classname="AutoWebSpa.TestSuites.Monedas.Monedas" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:37:12Z" end-time="2019-12-18 19:43:16Z" duration="364.171294" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="18">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <test-case id="0-1011" name="Monedas_Alta" fullname="AutoWebSpa.TestSuites.Monedas.Monedas.Monedas_Alta" methodname="Monedas_Alta" classname="AutoWebSpa.TestSuites.Monedas.Monedas" runstate="Runnable" seed="576264950" result="Passed" start-time="2019-12-18 19:37:12Z" end-time="2019-12-18 19:38:39Z" duration="86.825269" asserts="12" />
+            <test-case id="0-1014" name="Monedas_Auditar" fullname="AutoWebSpa.TestSuites.Monedas.Monedas.Monedas_Auditar" methodname="Monedas_Auditar" classname="AutoWebSpa.TestSuites.Monedas.Monedas" runstate="Runnable" seed="1735763600" result="Passed" start-time="2019-12-18 19:38:39Z" end-time="2019-12-18 19:40:22Z" duration="102.879819" asserts="2" />
+            <test-case id="0-1012" name="Monedas_Baja" fullname="AutoWebSpa.TestSuites.Monedas.Monedas.Monedas_Baja" methodname="Monedas_Baja" classname="AutoWebSpa.TestSuites.Monedas.Monedas" runstate="Runnable" seed="1243957885" result="Passed" start-time="2019-12-18 19:40:22Z" end-time="2019-12-18 19:41:57Z" duration="95.077286" asserts="2" />
+            <test-case id="0-1013" name="Monedas_Modificar" fullname="AutoWebSpa.TestSuites.Monedas.Monedas.Monedas_Modificar" methodname="Monedas_Modificar" classname="AutoWebSpa.TestSuites.Monedas.Monedas" runstate="Runnable" seed="652185043" result="Passed" start-time="2019-12-18 19:41:57Z" end-time="2019-12-18 19:43:15Z" duration="78.751717" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1087" name="Paises" fullname="AutoWebSpa.TestSuites.Paises" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:43:23Z" duration="935.330522" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="15">
+          <test-suite type="TestFixture" id="0-1040" name="Paises" fullname="AutoWebSpa.TestSuites.Paises.Paises" classname="AutoWebSpa.TestSuites.Paises.Paises" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:37:13Z" end-time="2019-12-18 19:43:23Z" duration="370.497853" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="15">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <test-case id="0-1041" name="Paises_Alta" fullname="AutoWebSpa.TestSuites.Paises.Paises.Paises_Alta" methodname="Paises_Alta" classname="AutoWebSpa.TestSuites.Paises.Paises" runstate="Runnable" seed="1322106240" result="Passed" start-time="2019-12-18 19:37:13Z" end-time="2019-12-18 19:38:35Z" duration="81.922794" asserts="9" />
+            <test-case id="0-1044" name="Paises_Auditar" fullname="AutoWebSpa.TestSuites.Paises.Paises.Paises_Auditar" methodname="Paises_Auditar" classname="AutoWebSpa.TestSuites.Paises.Paises" runstate="Runnable" seed="1428766594" result="Passed" start-time="2019-12-18 19:38:35Z" end-time="2019-12-18 19:40:19Z" duration="104.692253" asserts="2" />
+            <test-case id="0-1042" name="Paises_Baja" fullname="AutoWebSpa.TestSuites.Paises.Paises.Paises_Baja" methodname="Paises_Baja" classname="AutoWebSpa.TestSuites.Paises.Paises" runstate="Runnable" seed="912646856" result="Passed" start-time="2019-12-18 19:40:19Z" end-time="2019-12-18 19:41:58Z" duration="98.242070" asserts="2" />
+            <test-case id="0-1043" name="Paises_Modificar" fullname="AutoWebSpa.TestSuites.Paises.Paises.Paises_Modificar" methodname="Paises_Modificar" classname="AutoWebSpa.TestSuites.Paises.Paises" runstate="Runnable" seed="79076486" result="Passed" start-time="2019-12-18 19:41:58Z" end-time="2019-12-18 19:43:22Z" duration="84.464174" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1083" name="Provincias" fullname="AutoWebSpa.TestSuites.Provincias" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:44:22Z" duration="993.858373" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="12">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="0-1020" name="Provincias" fullname="AutoWebSpa.TestSuites.Provincias.Provincias" classname="AutoWebSpa.TestSuites.Provincias.Provincias" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2019-12-18 19:39:22Z" end-time="2019-12-18 19:44:22Z" duration="299.419944" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="12">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1021" name="Provincias_Alta" fullname="AutoWebSpa.TestSuites.Provincias.Provincias.Provincias_Alta" methodname="Provincias_Alta" classname="AutoWebSpa.TestSuites.Provincias.Provincias" runstate="Runnable" seed="203339947" result="Passed" start-time="2019-12-18 19:39:22Z" end-time="2019-12-18 19:40:20Z" duration="57.746957" asserts="7" />
+            <test-case id="0-1024" name="Provincias_Auditar" fullname="AutoWebSpa.TestSuites.Provincias.Provincias.Provincias_Auditar" methodname="Provincias_Auditar" classname="AutoWebSpa.TestSuites.Provincias.Provincias" runstate="Runnable" seed="149941338" result="Failed" label="Error" start-time="2019-12-18 19:40:20Z" end-time="2019-12-18 19:41:46Z" duration="85.840488" asserts="1">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@name='d.Nacionalidad']"}
+  (Session info: chrome=79.0.3945.79)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at WaitHelpers.WaitUntilClickeable(IWebDriver driver, By Locator, String nombreDelElemento) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\Helpers\WaitHelpers.cs:line 22
+   at AutoWebSpa.Core.Helpers.InputHelpers.SendKey(IWebDriver driver, By element, String value, String nombreDelElemento, Boolean sendEnter) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\Helpers\InputHelpers.cs:line 67
+TearDown : MySql.Data.MySqlClient.MySqlException : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'd.Nacionalidad']"}
+  (Session info: chrome=79.0.3945.79)
+   at OpenQA.Selenium.' at line 1
+  ----> MySql.Data.MySqlClient.MySqlException : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'd.Nacionalidad']"}
+  (Session info: chrome=79.0.3945.79)
+   at OpenQA.Selenium.' at line 1]]></message>
+                <stack-trace><![CDATA[at AutoWebSpa.Funciones.Alta.CompletarNumero(IWebDriver Driver, String Nro, String Campo, ExtentTest Reportes) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Funciones\Alta.cs:line 84
+at AutoWebSpa.TestSuites.Provincias.Provincias.Provincias_Auditar() in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\TestSuites\Provincias.cs:line 145
+
+--TearDown
+   at AutoWebSpa.Core.SeleniumExtentReport.AfterTest() in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\SeleniumExtentReport.cs:line 86
+--MySqlException
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   at MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\Core\ResultSet.cs:line 51]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@name='d.Nacionalidad']"}
+  (Session info: chrome=79.0.3945.79)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at WaitHelpers.WaitUntilClickeable(IWebDriver driver, By Locator, String nombreDelElemento) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\Helpers\WaitHelpers.cs:line 22
+   at AutoWebSpa.Core.Helpers.InputHelpers.SendKey(IWebDriver driver, By element, String value, String nombreDelElemento, Boolean sendEnter) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\Helpers\InputHelpers.cs:line 67]]></message>
+                  <stack-trace><![CDATA[at AutoWebSpa.Core.Helpers.InputHelpers.SendKey(IWebDriver driver, By element, String value, String nombreDelElemento, Boolean sendEnter) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\Helpers\InputHelpers.cs:line 67
+at AutoWebSpa.Funciones.Alta.CompletarNumero(IWebDriver Driver, String Nro, String Campo, ExtentTest Reportes) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Funciones\Alta.cs:line 77
+at AutoWebSpa.TestSuites.Provincias.Provincias.Provincias_Auditar() in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\TestSuites\Provincias.cs:line 145
+]]></stack-trace>
+                </assertion>
+                <assertion result="Failed">
+                  <message><![CDATA[OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@name='d.Nacionalidad']"}
+  (Session info: chrome=79.0.3945.79)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at WaitHelpers.WaitUntilClickeable(IWebDriver driver, By Locator, String nombreDelElemento) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\Helpers\WaitHelpers.cs:line 22
+   at AutoWebSpa.Core.Helpers.InputHelpers.SendKey(IWebDriver driver, By element, String value, String nombreDelElemento, Boolean sendEnter) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\Helpers\InputHelpers.cs:line 67]]></message>
+                  <stack-trace><![CDATA[at AutoWebSpa.Funciones.Alta.CompletarNumero(IWebDriver Driver, String Nro, String Campo, ExtentTest Reportes) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Funciones\Alta.cs:line 77
+at AutoWebSpa.TestSuites.Provincias.Provincias.Provincias_Auditar() in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\TestSuites\Provincias.cs:line 145
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1022" name="Provincias_Baja" fullname="AutoWebSpa.TestSuites.Provincias.Provincias.Provincias_Baja" methodname="Provincias_Baja" classname="AutoWebSpa.TestSuites.Provincias.Provincias" runstate="Runnable" seed="1995304" result="Passed" start-time="2019-12-18 19:41:46Z" end-time="2019-12-18 19:42:55Z" duration="69.566932" asserts="2" />
+            <test-case id="0-1023" name="Provincias_Modificar" fullname="AutoWebSpa.TestSuites.Provincias.Provincias.Provincias_Modificar" methodname="Provincias_Modificar" classname="AutoWebSpa.TestSuites.Provincias.Provincias" runstate="Runnable" seed="1205164368" result="Passed" start-time="2019-12-18 19:42:55Z" end-time="2019-12-18 19:44:21Z" duration="85.336169" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1084" name="Referentes" fullname="AutoWebSpa.TestSuites.Referentes" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:44:45Z" duration="1017.492294" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="9">
+          <test-suite type="TestFixture" id="0-1025" name="Referentes" fullname="AutoWebSpa.TestSuites.Referentes.Referentes" classname="AutoWebSpa.TestSuites.Referentes.Referentes" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:40:38Z" end-time="2019-12-18 19:44:45Z" duration="247.308524" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="9">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <test-case id="0-1026" name="Referentes_Alta" fullname="AutoWebSpa.TestSuites.Referentes.Referentes.Referentes_Alta" methodname="Referentes_Alta" classname="AutoWebSpa.TestSuites.Referentes.Referentes" runstate="Runnable" seed="114729209" result="Passed" start-time="2019-12-18 19:40:38Z" end-time="2019-12-18 19:41:34Z" duration="56.352294" asserts="3" />
+            <test-case id="0-1029" name="Referentes_Auditar" fullname="AutoWebSpa.TestSuites.Referentes.Referentes.Referentes_Auditar" methodname="Referentes_Auditar" classname="AutoWebSpa.TestSuites.Referentes.Referentes" runstate="Runnable" seed="948086814" result="Passed" start-time="2019-12-18 19:41:34Z" end-time="2019-12-18 19:42:51Z" duration="76.717339" asserts="2" />
+            <test-case id="0-1027" name="Referentes_Baja" fullname="AutoWebSpa.TestSuites.Referentes.Referentes.Referentes_Baja" methodname="Referentes_Baja" classname="AutoWebSpa.TestSuites.Referentes.Referentes" runstate="Runnable" seed="504886307" result="Passed" start-time="2019-12-18 19:42:51Z" end-time="2019-12-18 19:43:48Z" duration="56.736128" asserts="2" />
+            <test-case id="0-1028" name="Referentes_Modificar" fullname="AutoWebSpa.TestSuites.Referentes.Referentes.Referentes_Modificar" methodname="Referentes_Modificar" classname="AutoWebSpa.TestSuites.Referentes.Referentes" runstate="Runnable" seed="967447520" result="Passed" start-time="2019-12-18 19:43:48Z" end-time="2019-12-18 19:44:45Z" duration="56.962657" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1085" name="Zona" fullname="AutoWebSpa.TestSuites.Zona" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:46:15Z" duration="1107.108532" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="7">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="0-1030" name="Zonas" fullname="AutoWebSpa.TestSuites.Zona.Zonas" classname="AutoWebSpa.TestSuites.Zona.Zonas" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2019-12-18 19:43:23Z" end-time="2019-12-18 19:46:15Z" duration="171.780675" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="7">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1031" name="Zonas_Alta" fullname="AutoWebSpa.TestSuites.Zona.Zonas.Zonas_Alta" methodname="Zonas_Alta" classname="AutoWebSpa.TestSuites.Zona.Zonas" runstate="Runnable" seed="1414807484" result="Passed" start-time="2019-12-18 19:43:23Z" end-time="2019-12-18 19:44:06Z" duration="42.335887" asserts="2" />
+            <test-case id="0-1034" name="Zonas_Auditar" fullname="AutoWebSpa.TestSuites.Zona.Zonas.Zonas_Auditar" methodname="Zonas_Auditar" classname="AutoWebSpa.TestSuites.Zona.Zonas" runstate="Runnable" seed="1098276472" result="Failed" label="Error" start-time="2019-12-18 19:44:06Z" end-time="2019-12-18 19:44:50Z" duration="44.135985" asserts="1">
+              <failure>
+                <message><![CDATA[System.InvalidOperationException: element click intercepted: Element <input type="text" class="form-control input-sm ng-valid ng-valid-required ng-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-animate ng-not-empty-remove ng-empty ng-dirty ng-valid-parse ng-valid-parse-add-active ng-dirty-add-active ng-pristine-remove-active ng-empty-add-active ng-not-empty-remove-active ng-touched-add ng-untouched-remove ng-touched ng-touched-add-active ng-untouched-remove-active" name="d.CodInterfaz" ng-model="model.text" ng-required="model.isRequired" ng-disabled="model.isDisabled" ng-model-options="{ '*': '$inherit' }" ng-keydown="model.dirty = true" ng-blur="model.isFocused = false; model.dirty = true; ngBlur();" ng-focus="model.isFocused = true" uib-popover-template="'core/directives/abmErrors/abmErrorsTooltipTemplate.html'" popover-placement="auto right" popover-append-to-body="true" popover-trigger="'mouseenter focus'" popover-is-open="model.showErrors &amp;&amp; model.isFocused" data-ng-animate="2" style=""> is not clickable at point (459, 207). Other element would receive the click: <div class="help-block-error spa-empty-error" style="opacity: 0;">...</div>
+  (Session info: chrome=79.0.3945.79)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at AutoWebSpa.Core.Helpers.InputHelpers.SendKey(IWebDriver driver, By element, String value, String nombreDelElemento, Boolean sendEnter) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\Helpers\InputHelpers.cs:line 71
+TearDown : MySql.Data.MySqlClient.MySqlException : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '$inherit' }" ng-keydown="model.dirty = true" ng-blur="model.isFocused = false; m' at line 1
+  ----> MySql.Data.MySqlClient.MySqlException : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '$inherit' }" ng-keydown="model.dirty = true" ng-blur="model.isFocused = false; m' at line 1]]></message>
+                <stack-trace><![CDATA[at AutoWebSpa.Funciones.Modificar.ModificarRegistro(IWebDriver Driver, String Registro, String Campo, String Dato, ExtentTest Reportes) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Funciones\Modificar.cs:line 40
+at AutoWebSpa.TestSuites.Zona.Zonas.Zonas_Auditar() in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\TestSuites\Zonas.cs:line 124
+
+--TearDown
+   at AutoWebSpa.Core.SeleniumExtentReport.AfterTest() in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\SeleniumExtentReport.cs:line 86
+--MySqlException
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   at MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\Core\ResultSet.cs:line 51]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[System.InvalidOperationException: element click intercepted: Element <input type="text" class="form-control input-sm ng-valid ng-valid-required ng-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-animate ng-not-empty-remove ng-empty ng-dirty ng-valid-parse ng-valid-parse-add-active ng-dirty-add-active ng-pristine-remove-active ng-empty-add-active ng-not-empty-remove-active ng-touched-add ng-untouched-remove ng-touched ng-touched-add-active ng-untouched-remove-active" name="d.CodInterfaz" ng-model="model.text" ng-required="model.isRequired" ng-disabled="model.isDisabled" ng-model-options="{ '*': '$inherit' }" ng-keydown="model.dirty = true" ng-blur="model.isFocused = false; model.dirty = true; ngBlur();" ng-focus="model.isFocused = true" uib-popover-template="'core/directives/abmErrors/abmErrorsTooltipTemplate.html'" popover-placement="auto right" popover-append-to-body="true" popover-trigger="'mouseenter focus'" popover-is-open="model.showErrors &amp;&amp; model.isFocused" data-ng-animate="2" style=""> is not clickable at point (459, 207). Other element would receive the click: <div class="help-block-error spa-empty-error" style="opacity: 0;">...</div>
+  (Session info: chrome=79.0.3945.79)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at AutoWebSpa.Core.Helpers.InputHelpers.SendKey(IWebDriver driver, By element, String value, String nombreDelElemento, Boolean sendEnter) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\Helpers\InputHelpers.cs:line 71]]></message>
+                  <stack-trace><![CDATA[at AutoWebSpa.Core.Helpers.InputHelpers.SendKey(IWebDriver driver, By element, String value, String nombreDelElemento, Boolean sendEnter) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\Helpers\InputHelpers.cs:line 71
+at AutoWebSpa.RepositorioDeObjetos.PantallaPrincipal.CompletarCampos(IWebDriver Driver, String Campo, String Dato, ExtentTest Reportes, Int32 Delay) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\RepositorioDeObjetos\PantallaPrincipal.cs:line 97
+at AutoWebSpa.Funciones.Modificar.ModificarRegistro(IWebDriver Driver, String Registro, String Campo, String Dato, ExtentTest Reportes) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Funciones\Modificar.cs:line 34
+at AutoWebSpa.TestSuites.Zona.Zonas.Zonas_Auditar() in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\TestSuites\Zonas.cs:line 124
+]]></stack-trace>
+                </assertion>
+                <assertion result="Failed">
+                  <message><![CDATA[System.InvalidOperationException: element click intercepted: Element <input type="text" class="form-control input-sm ng-valid ng-valid-required ng-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-animate ng-not-empty-remove ng-empty ng-dirty ng-valid-parse ng-valid-parse-add-active ng-dirty-add-active ng-pristine-remove-active ng-empty-add-active ng-not-empty-remove-active ng-touched-add ng-untouched-remove ng-touched ng-touched-add-active ng-untouched-remove-active" name="d.CodInterfaz" ng-model="model.text" ng-required="model.isRequired" ng-disabled="model.isDisabled" ng-model-options="{ '*': '$inherit' }" ng-keydown="model.dirty = true" ng-blur="model.isFocused = false; model.dirty = true; ngBlur();" ng-focus="model.isFocused = true" uib-popover-template="'core/directives/abmErrors/abmErrorsTooltipTemplate.html'" popover-placement="auto right" popover-append-to-body="true" popover-trigger="'mouseenter focus'" popover-is-open="model.showErrors &amp;&amp; model.isFocused" data-ng-animate="2" style=""> is not clickable at point (459, 207). Other element would receive the click: <div class="help-block-error spa-empty-error" style="opacity: 0;">...</div>
+  (Session info: chrome=79.0.3945.79)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at AutoWebSpa.Core.Helpers.InputHelpers.SendKey(IWebDriver driver, By element, String value, String nombreDelElemento, Boolean sendEnter) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\Helpers\InputHelpers.cs:line 71]]></message>
+                  <stack-trace><![CDATA[at AutoWebSpa.RepositorioDeObjetos.PantallaPrincipal.CompletarCampos(IWebDriver Driver, String Campo, String Dato, ExtentTest Reportes, Int32 Delay) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\RepositorioDeObjetos\PantallaPrincipal.cs:line 97
+at AutoWebSpa.Funciones.Modificar.ModificarRegistro(IWebDriver Driver, String Registro, String Campo, String Dato, ExtentTest Reportes) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Funciones\Modificar.cs:line 34
+at AutoWebSpa.TestSuites.Zona.Zonas.Zonas_Auditar() in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\TestSuites\Zonas.cs:line 124
+]]></stack-trace>
+                </assertion>
+                <assertion result="Failed">
+                  <message><![CDATA[System.InvalidOperationException: element click intercepted: Element <input type="text" class="form-control input-sm ng-valid ng-valid-required ng-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-animate ng-not-empty-remove ng-empty ng-dirty ng-valid-parse ng-valid-parse-add-active ng-dirty-add-active ng-pristine-remove-active ng-empty-add-active ng-not-empty-remove-active ng-touched-add ng-untouched-remove ng-touched ng-touched-add-active ng-untouched-remove-active" name="d.CodInterfaz" ng-model="model.text" ng-required="model.isRequired" ng-disabled="model.isDisabled" ng-model-options="{ '*': '$inherit' }" ng-keydown="model.dirty = true" ng-blur="model.isFocused = false; model.dirty = true; ngBlur();" ng-focus="model.isFocused = true" uib-popover-template="'core/directives/abmErrors/abmErrorsTooltipTemplate.html'" popover-placement="auto right" popover-append-to-body="true" popover-trigger="'mouseenter focus'" popover-is-open="model.showErrors &amp;&amp; model.isFocused" data-ng-animate="2" style=""> is not clickable at point (459, 207). Other element would receive the click: <div class="help-block-error spa-empty-error" style="opacity: 0;">...</div>
+  (Session info: chrome=79.0.3945.79)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()
+   at AutoWebSpa.Core.Helpers.InputHelpers.SendKey(IWebDriver driver, By element, String value, String nombreDelElemento, Boolean sendEnter) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Core\Helpers\InputHelpers.cs:line 71]]></message>
+                  <stack-trace><![CDATA[at AutoWebSpa.Funciones.Modificar.ModificarRegistro(IWebDriver Driver, String Registro, String Campo, String Dato, ExtentTest Reportes) in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\Funciones\Modificar.cs:line 34
+at AutoWebSpa.TestSuites.Zona.Zonas.Zonas_Auditar() in C:\Workspace\Desarrollo\QAAutomation\AutoWebSpa\AutoWebSpa\TestSuites\Zonas.cs:line 124
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1032" name="Zonas_Baja" fullname="AutoWebSpa.TestSuites.Zona.Zonas.Zonas_Baja" methodname="Zonas_Baja" classname="AutoWebSpa.TestSuites.Zona.Zonas" runstate="Runnable" seed="761677899" result="Passed" start-time="2019-12-18 19:44:50Z" end-time="2019-12-18 19:45:26Z" duration="36.614607" asserts="2" />
+            <test-case id="0-1033" name="Zonas_Modificar" fullname="AutoWebSpa.TestSuites.Zona.Zonas.Zonas_Modificar" methodname="Zonas_Modificar" classname="AutoWebSpa.TestSuites.Zona.Zonas" runstate="Runnable" seed="1985405367" result="Passed" start-time="2019-12-18 19:45:26Z" end-time="2019-12-18 19:46:15Z" duration="48.346693" asserts="2" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1089" name="TiposDeContribuyente" fullname="AutoWebSpa.TestSuites.TiposDeContribuyente" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:27:48Z" end-time="2019-12-18 19:47:09Z" duration="1161.209217" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="11">
+          <test-suite type="TestFixture" id="0-1050" name="TiposDeContribuyente" fullname="AutoWebSpa.TestSuites.TiposDeContribuyente.TiposDeContribuyente" classname="AutoWebSpa.TestSuites.TiposDeContribuyente.TiposDeContribuyente" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-12-18 19:43:16Z" end-time="2019-12-18 19:47:09Z" duration="232.976423" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="11">
+            <properties>
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <test-case id="0-1051" name="TiposDeContribuyente_Alta" fullname="AutoWebSpa.TestSuites.TiposDeContribuyente.TiposDeContribuyente.TiposDeContribuyente_Alta" methodname="TiposDeContribuyente_Alta" classname="AutoWebSpa.TestSuites.TiposDeContribuyente.TiposDeContribuyente" runstate="Runnable" seed="134940519" result="Passed" start-time="2019-12-18 19:43:16Z" end-time="2019-12-18 19:44:14Z" duration="58.184204" asserts="5" />
+            <test-case id="0-1054" name="TiposDeContribuyente_Auditar" fullname="AutoWebSpa.TestSuites.TiposDeContribuyente.TiposDeContribuyente.TiposDeContribuyente_Auditar" methodname="TiposDeContribuyente_Auditar" classname="AutoWebSpa.TestSuites.TiposDeContribuyente.TiposDeContribuyente" runstate="Runnable" seed="724972282" result="Passed" start-time="2019-12-18 19:44:14Z" end-time="2019-12-18 19:45:25Z" duration="70.864994" asserts="2" />
+            <test-case id="0-1052" name="TiposDeContribuyente_Baja" fullname="AutoWebSpa.TestSuites.TiposDeContribuyente.TiposDeContribuyente.TiposDeContribuyente_Baja" methodname="TiposDeContribuyente_Baja" classname="AutoWebSpa.TestSuites.TiposDeContribuyente.TiposDeContribuyente" runstate="Runnable" seed="446382720" result="Passed" start-time="2019-12-18 19:45:25Z" end-time="2019-12-18 19:46:17Z" duration="51.982532" asserts="2" />
+            <test-case id="0-1053" name="TiposDeContribuyente_Modificar" fullname="AutoWebSpa.TestSuites.TiposDeContribuyente.TiposDeContribuyente.TiposDeContribuyente_Modificar" methodname="TiposDeContribuyente_Modificar" classname="AutoWebSpa.TestSuites.TiposDeContribuyente.TiposDeContribuyente" runstate="Runnable" seed="591084599" result="Passed" start-time="2019-12-18 19:46:17Z" end-time="2019-12-18 19:47:09Z" duration="51.714597" asserts="2" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
