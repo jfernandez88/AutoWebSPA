@@ -19,7 +19,7 @@ namespace AutoWebSpa.Core.Helpers
                 dis = driver.FindElement(element).Displayed;
                 driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             }
-            catch (Exception e)
+            catch (Exception )
             {
                 return dis = false;
             }
@@ -104,7 +104,7 @@ namespace AutoWebSpa.Core.Helpers
                     }
                 }
             }
-            catch (Exception e)
+            catch (Exception )
             {
                 return dis = false;
             }
