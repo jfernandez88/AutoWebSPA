@@ -35,7 +35,7 @@ namespace AutoWebSpa
                     DesiredCapabilities cap = DesiredCapabilities.Chrome();
                     cap.SetCapability("browserName", "chrome");
 
-                    Driver = new RemoteWebDriver(new Uri("http://192.168.22.116:4444/wd/hub"), cap);
+                    Driver = new RemoteWebDriver(new Uri("http://192.168.22.70:4444/wd/hub"), cap);
                 }
                 else
                 {

@@ -41,7 +41,7 @@ namespace AutoWebSpa.Core
             try
             {
                 detalleReporte = _extent.CreateTest(TestContext.CurrentContext.Test.Name);
-                inicializar(BrowerType.Chrome,false);
+                inicializar(BrowerType.Chrome,true);
             }
             catch (Exception e)
             {
