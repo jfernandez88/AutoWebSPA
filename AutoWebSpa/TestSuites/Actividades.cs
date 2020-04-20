@@ -30,7 +30,7 @@ namespace AutoWebSpa.TestSuites.Actividades
         public void Actividades_Alta()
         {
 
-            int Nro = rnd.Next(900);
+            int Nro = rnd.Next(100000);
 
             //Alta
             Login.Loguearse("sa", "sasa", Driver, detalleReporte);
@@ -67,7 +67,7 @@ namespace AutoWebSpa.TestSuites.Actividades
         public void Actividades_Baja()
         {
 
-            int Nro = rnd.Next(900);
+            int Nro = rnd.Next(100000);
 
                 //Alta
                 Login.Loguearse("sa", "sasa", Driver, detalleReporte);
@@ -95,7 +95,7 @@ namespace AutoWebSpa.TestSuites.Actividades
         public void Actividades_Modificar()
         {
 
-            int Nro = rnd.Next(900);
+            int Nro = rnd.Next(100000);
 
                 // Alta
                 Login.Loguearse("sa", "sasa", Driver, detalleReporte);
@@ -128,7 +128,7 @@ namespace AutoWebSpa.TestSuites.Actividades
         public void Actividades_Auditar()
         {
 
-            int Nro = rnd.Next(500);
+            int Nro = rnd.Next(100000);
 
 
                 // Alta
