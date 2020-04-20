@@ -29,7 +29,7 @@ namespace AutoWebSpa.TestSuites.Agentes
         public void Agentes_Alta()
         {
 
-            int Nro = rnd.Next(100000);
+            int Nro = rnd.Next(900);
 
             //Alta
             Login.Loguearse("sa", "sasa", Driver, detalleReporte);
@@ -110,7 +110,7 @@ namespace AutoWebSpa.TestSuites.Agentes
         public void Agentes_Baja()
         {
 
-            int Nro = rnd.Next(100000);
+            int Nro = rnd.Next(900);
 
             //Alta
             Login.Loguearse("sa", "sasa", Driver, detalleReporte);
@@ -163,7 +163,7 @@ namespace AutoWebSpa.TestSuites.Agentes
         public void Agentes_Modificar()
         {
 
-            int Nro = rnd.Next(100000);
+            int Nro = rnd.Next(900);
             //Alta
             Login.Loguearse("sa", "sasa", Driver, detalleReporte);
             Alta.SeleccionarModulo("Agentes", Driver, detalleReporte);
@@ -221,7 +221,7 @@ namespace AutoWebSpa.TestSuites.Agentes
         public void Agentes_Auditar()
         {
 
-            int Nro = rnd.Next(100000);
+            int Nro = rnd.Next(900);
 
             //Alta
             Login.Loguearse("sa", "sasa", Driver, detalleReporte);
