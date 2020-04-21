@@ -170,7 +170,7 @@ namespace AutoWebSpa.TestSuites.Agentes
             Alta.AdicionarElemento(Driver, detalleReporte);
 
             //Completar Datos Generales
-            Alta.CompletarDescripcion(Driver, "QAA_Mod" + Nro, detalleReporte);
+            Alta.CompletarDescripcion(Driver, "QAA_MOD" + Nro, detalleReporte);
             Alta.CompletarNumero(Driver, Nro.ToString(), "NumeroAgente", detalleReporte);
             Alta.CompletarCampos(Driver, "Tipo de Agente", "Agente de Bolsa", detalleReporte, 2);
 
@@ -204,11 +204,11 @@ namespace AutoWebSpa.TestSuites.Agentes
             Alta.Aceptar(Driver, detalleReporte);
 
             //Modificar Registro
-            Modificar.ModificarRegistro(Driver, "QAA_Mod" + Nro, "Código de Interfaz", "Modificado", detalleReporte);
+            Modificar.ModificarRegistro(Driver, "QAA_MOD" + Nro, "Código de Interfaz", "Modificado", detalleReporte);
 
             //Validar Modificación
-            Detalles.buscarRegistro(Driver, "QAA_Mod" + Nro, detalleReporte);
-            Detalles.selectRegistro(Driver, "QAA_Mod" + Nro, detalleReporte);
+            Detalles.buscarRegistro(Driver, "QAA_MOD" + Nro, detalleReporte);
+            Detalles.selectRegistro(Driver, "QAA_MOD" + Nro, detalleReporte);
             Detalles.clickDetalles(Driver, detalleReporte);
 
             //Validar Campos
