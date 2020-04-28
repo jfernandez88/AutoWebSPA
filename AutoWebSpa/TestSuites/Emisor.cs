@@ -125,7 +125,7 @@ namespace AutoWebSpa.TestSuites.Emisor
             Login.Loguearse("sa", "sasa", Driver, detalleReporte);
             Alta.SeleccionarModulo("Emisor", Driver, detalleReporte);
             Alta.AdicionarElemento(Driver, detalleReporte);
-            Alta.CompletarDescripcion(Driver, "QAA_" + Nro, detalleReporte);
+            Alta.CompletarDescripcion(Driver, "QAA_A" + Nro, detalleReporte);
             Alta.selectorGenerico(Driver, "Grupos Económicos", "TELECOM", detalleReporte);
             Alta.selectorGenerico(Driver, "País", "Argentina", detalleReporte);
             Alta.CompletarCampos(Driver, "CUIT", "30-61968925-5" + Nro, detalleReporte);
@@ -135,16 +135,16 @@ namespace AutoWebSpa.TestSuites.Emisor
             Alta.Aceptar(Driver, detalleReporte);
 
             //Modificar Registro
-            Modificar.ModificarRegistro(Driver, "QAA_" + Nro, "Código de Interfaz", "Modificado" + Nro, detalleReporte);
+            Modificar.ModificarRegistro(Driver, "QAA_A" + Nro, "Código de Interfaz", "Modificado" + Nro, detalleReporte);
 
             //Baja de Registro
-            Bajas.BajaDeRegistro(Driver, "QAA_" + Nro, detalleReporte);
+            Bajas.BajaDeRegistro(Driver, "QAA_A" + Nro, detalleReporte);
 
             //Recuperar registro
-            Recuperar.RecuperarRegistro(Driver, "QAA_" + Nro, detalleReporte);
+            Recuperar.RecuperarRegistro(Driver, "QAA_A" + Nro, detalleReporte);
 
             //Auditar Registro
-            Assert.IsTrue(Auditar.AuditarRegistro(Driver, "QAA_" + Nro, detalleReporte), "Error en Auditoria");
+            Assert.IsTrue(Auditar.AuditarRegistro(Driver, "QAA_A" + Nro, detalleReporte), "Error en Auditoria");
 
         }
 
